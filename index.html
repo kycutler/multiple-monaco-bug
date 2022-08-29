@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<script>
+			const button = document.createElement("button");
+			button.innerText = "Load Bundle B";
+			button.onclick = function () {
+				const script = document.createElement("script");
+				script.src = "./dist/indexB.bundle.js";
+				document.body.appendChild(script);
+			};
+			document.body.appendChild(button);
+		</script>
+		<div id="root" style="width: 600px; height: 200px; border: 1px solid #CCC"></div>
+		<script src="./dist/indexA.bundle.js"></script>
+	</body>
+</html>

@@ -1,0 +1,15 @@
+{
+	"name": "multiple-monaco-bug",
+	"scripts": {
+		"build": "webpack --progress"
+	},
+	"devDependencies": {
+		"css-loader": "^5.2.7",
+		"file-loader": "^6.2.0",
+		"monaco-editor": "^0.32.1",
+		"monaco-editor-webpack-plugin": "^7.0.1",
+		"style-loader": "^3.3.1",
+		"webpack": "^5.68.0",
+		"webpack-cli": "^4.9.2"
+	}
+}
